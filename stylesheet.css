@@ -1,0 +1,275 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  background-color: black;
+  height: 65px;
+  width: 100%;
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  height: 40px;
+  weight: 40px;
+  margin: 15px;
+}
+
+.header-right {
+  float: right;
+  margin-right: 0px;
+}
+
+.header-right a {
+  float: left;
+  padding: 0px 25px;
+  margin-right: 10px;
+  color: white;
+  display: block;
+  transition: all 0.5s;
+  line-height: 65px;
+}
+
+.header-right i {
+  color: white;
+  float: left;  
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.header-left {
+  float: left;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(https://live.staticflickr.com/65535/51705681966_05fcaa6099_z.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.top-wrapper h1 {  
+  font-size: 96px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+  text-shadow: black 20px;
+}
+
+.top-wrapper p {  
+  margin-bottom: 3px; 
+  text-overflow: clip; 
+  font-weight: 100;
+  font-size: 36px;
+}
+
+.btn-wrapper {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.daftar {
+  background-color: #FF0404;
+  cursor: pointer;
+  box-shadow: 0 7px #f1ad46;
+  padding: 15px 40px;
+}
+
+.daftar:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+.daftar:hover {
+  background-color: rgba(236, 81, 81, 1);
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.profil-wrapper {
+  height: 450px;
+}
+.profil-wrapper h2 {
+  color: #21ADBE;
+  text-align: center;
+  padding: 15px 0px;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.container p {
+  font-size: 18px;
+}
+.propict {
+  float: left;
+  width: 45%;
+  padding-top: 20px; 
+  padding-left: 50px;
+  padding-bottom: 50px;
+  margin-bottom: 20px;
+}
+
+.propict img {
+  height: 300px;
+  width: 500px;
+}
+
+.protext {
+  float: right;
+  width: 55%;
+  padding-top: 60px;
+  padding-right: 50px;
+  padding-left: 100px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.tele-wrapper {
+  background-color: #21ADBE;
+}
+
+.tele-wrapper h2 {
+  color: white;
+  text-align: center;
+  padding: 15px 0px;
+}
+
+.tele-wrapper p {
+  color: white;
+  text-align: center;  
+}
+
+.channel {
+  background-color: white;
+  margin-right: 10px;
+  color: #0088CC;
+}
+
+.group {
+  background-color: white ;
+  color: #0088CC;
+}
+
+.channel:hover {
+  background-color: rgba(226, 220, 166, 0.9);
+}
+
+.group:hover {
+  background-color: rgba(226, 220, 166, 0.9);
+}
+
+.btn-wrapper {
+  padding-bottom: 20px;
+
+}
+
+.btn-wrapper span {
+  padding-right: 5px;
+
+}
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;   
+}
+
+.flex-list {
+  display: flex;
+}
+
+
+.flex-list li{
+  flex: auto;
+  padding: 60px;
+}
+
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 20px;
+  text-align: center;
+}
+
+.flex-list h4{
+  font-size: 18px;
+}
+
+.flex-list p{
+  font-size: 12px;
+}
+
+footer{
+  background-color: #21ADBE;
+  height: 200px;
+  width: 100%;
+  color:white;
+}
+
+.logo2{
+  height: 80px;
+  weight: 80px;
+  margin : 40px;
+}
+
+.footer-left{
+  float: left;
+}
+
+.center{
+  float: left;
+}
+.center h4{
+  font-size: 18px;
+  padding-top: 10px;
+}
+
+.center p{
+  font-size: 12px;
+  width: 215px;
+  padding-bottom: 40px;
+}
+
+.footer-right{
+  float: right;
+}
+.footer-right h5{
+  font-size: 18px;
+  padding-top: 10px;
+  padding-right: 40px;
+  text-align: right;
+}
+.footer-right li{
+  float: left;
+  font-size: 14px;
+  padding-right: 20px;
+}
